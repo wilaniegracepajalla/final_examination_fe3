@@ -1,0 +1,268 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+@media (min-width: 992px){
+    h1 {
+
+        color: white;
+    }
+    #container1 {
+
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(background2.jpg);
+        background-size: cover;
+        border: 1px solid pink;
+        float: left;
+        width: 30%;
+        margin-top: 7%;
+        margin-left: 3%;
+        margin-bottom: 3%;
+    }
+    #container2 {
+
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(background2.jpg);
+        background-size: cover;
+        border: 1px solid orange;
+        float: left;
+        width: 30%;
+        margin-top: 7%;
+        margin-left: 2%;
+        margin-bottom: 3%;
+    }
+    #container3 {
+
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(153, 79, 79, 0.7)),url(background2.jpg);
+        background-size: cover;
+        border: 1px solid violet;
+        float: left;
+        width: 30%;
+        margin-top: 7%;
+        margin-left: 2%;
+        margin-bottom: 3%;
+    }
+
+    #title1 {
+
+            border: 1px solid black;
+            background-color: pink;
+            text-align: center;
+            font-size: x-large;
+            float: right;
+            width: 150px;
+            color: black;
+            padding: 5px;
+    }
+
+    #title2 {
+
+        border: 1px solid black;
+        background-color: orange;
+        text-align: center;
+        font-size: x-large;
+        float: right;
+        width: 180px;
+        color: black;
+        padding: 5px;
+}
+    #title3 {
+
+        border: 1px solid black;
+        background-color: violet;
+        text-align: center;
+        font-size: x-large;
+        float: right;
+        width: 180px;
+        color: black;
+        padding: 5px;
+}
+    .poem {
+        clear: right;
+        font-size: large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        text-align: justify;
+        margin: 0;
+        padding: 10px;
+        color: white;
+
+    }
+   
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+
+        color: yellow;
+    }
+    #container1 {
+
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(background3.jpg);
+        background-size: cover;
+        border: 1px solid pink;
+        float: left;
+        width: 45%;
+        margin-top: 7%;
+        margin-left: 3%;
+    }
+    #container2 {
+
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(background3.jpg);
+        background-size: cover;
+        border: 1px solid orange;
+        float: left;
+        width: 45%;
+        margin-top: 7%;
+        margin-left: 4%;
+      
+    }
+    #container3 {
+
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(153, 79, 79, 0.7)),url(background3.jpg);
+        background-size: cover;
+        border: 1px solid violet;
+        float: left;
+        width: 94.3%;
+        margin-top: 4%;
+        margin-left: 3%;
+        margin-bottom: 4%;
+    }
+
+    #title1 {
+
+            border: 1px solid black;
+            background-color: pink;
+            text-align: center;
+            font-size: x-large;
+            float: right;
+            width: 150px;
+            color: black;
+            padding: 5px;
+    }
+
+    #title2 {
+
+        border: 1px solid black;
+        background-color: orange;
+        text-align: center;
+        font-size: x-large;
+        float: right;
+        width: 180px;
+        color: black;
+        padding: 5px;
+}
+    #title3 {
+
+        border: 1px solid black;
+        background-color: violet;
+        text-align: center;
+        font-size: x-large;
+        float: right;
+        width: 180px;
+        color: black;
+        padding: 5px;
+}
+    .poem {
+        clear: right;
+        font-size: large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        text-align: justify;
+        margin: 0;
+        padding: 10px;
+        color: white;
+
+    }
+}
+@media (max-width: 767px){
+    h1 {
+
+        color: orange;
+    }
+    #container1 {
+
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(background2.jpg);
+        background-size: cover;
+        border: 1px solid pink;
+        float: left;
+        width: 94.3%;
+        margin-top: 4%;
+        margin-left: 3%;
+    }
+    #container2 {
+
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(background2.jpg);
+        background-size: cover;
+        border: 1px solid orange;
+        float: left;
+        width: 94.3%;
+        margin-top: 4%;
+        margin-left: 3%;
+      
+    }
+    #container3 {
+
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(153, 79, 79, 0.7)),url(background2.jpg);
+        background-size: cover;
+        border: 1px solid violet;
+        float: left;
+        width: 94.3%;
+        margin-top: 4%;
+        margin-left: 3%;
+        margin-bottom: 4%;
+    }
+
+    #title1 {
+
+            border: 1px solid black;
+            background-color: pink;
+            text-align: center;
+            font-size: x-large;
+            float: right;
+            width: 150px;
+            color: black;
+            padding: 5px;
+    }
+
+    #title2 {
+
+        border: 1px solid black;
+        background-color: orange;
+        text-align: center;
+        font-size: x-large;
+        float: right;
+        width: 180px;
+        color: black;
+        padding: 5px;
+}
+    #title3 {
+
+        border: 1px solid black;
+        background-color: violet;
+        text-align: center;
+        font-size: x-large;
+        float: right;
+        width: 180px;
+        color: black;
+        padding: 5px;
+}
+    .poem {
+        clear: right;
+        font-size: large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        text-align: justify;
+        margin: 0;
+        padding: 10px;
+        color: white;
+
+    }
+
+}
